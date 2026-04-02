@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "janwyler1-einkaufsliste"
+  bucket = "janwyler1-einkaufslistetest"
 }
 
 resource "aws_s3_bucket_public_access_block" "website_bucket_pab" {
